@@ -1,0 +1,151 @@
+.barrio-regular {
+    font-family: "Barrio", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+body{
+    margin: 0;
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+    color: #66bfbf;
+    margin: 50px auto 0 auto;
+}
+h2{
+    font-size: 3rem;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #11999e;
+    padding-bottom: 10px;
+}
+h3{
+    font-size: 2rem;
+    color: #66bfbf;
+}
+hr{
+    border: dotted white 5px ;
+    border-bottom: none;
+    margin:100px auto;
+    width: 30%;
+}
+a{  
+    color: #11999e;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-size: 1.25rem;
+}
+.top-container{
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    position: relative;
+}
+.middle-container{
+    background-color: #C4D9FF;
+    padding-top: 100px;
+    position: relative;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 30px;
+}
+.cloud-1{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.cloud-2{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.img-1{
+    width: 15%;
+    border-radius: 50%;
+}
+.Intro{
+    color: #578FCA;
+    font-size: 1.5rem;
+    width: 50%;
+    margin: auto;
+}
+.underline{
+    text-decoration: underline;
+}
+.flex{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 2rem;
+}
+.box{
+    flex: 1;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 10%;
+    text-align: center;
+    background-color: #DFF2EB;
+}
+.school{
+    width: 10rem;
+    float: left;
+    margin-right: 10px;
+}
+.classes{
+    color: #133E87;
+}
+@media (max-width: 1250px) {
+    .flex{
+      flex-direction: column;
+      height: 100%;
+    }  
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    width: 60%;
+    margin: auto;
+}
+.img-2{
+    width: 100%;
+}
+.info{
+    color: #133E87;
+    font-size: 1.25rem;
+}
+.box-2{
+    width: 35%;
+    margin: auto;
+}
+.box-3{
+    width: 35%;
+    padding-bottom: 50px;
+    margin: auto;
+}
+ul{
+    list-style-position: inside;
+    color: #133E87;
+    font-size: 1.25rem;
+    line-height: 2;
+    text-align: left;
+}
+ol{
+    list-style-position: inside;
+    color: #133E87;
+    font-size: 1.5rem;
+    text-align: left;
+}
+.contact-para{
+    text-align: left;
+    color: #133E87;
+    font-size: 1.75rem;
+}
+.copyright{
+    font-size: 1rem;
+    color: white;
+    padding: 20px 0px;
+}
